@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #eee6e6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <img class="profile-img" src="{{ url_for('static', filename='html2.jpg') }}" alt="Profile Picture">
+            <h2>Govind Jha</h2>
+            <p>AI/ML Enthusiast | Data Science Enthusiast</p>
+
+            <h3>Introduction</h3>
+            <p>Hello! I'm Govind Jha, a passionate AI/ML Devloper with a keen interest in data science. I enjoy building robust applications that solve real-world problems and exploring new technologies to enhance my skills.</p>
+
+            <h3>Education</h3>
+            <ul>
+                <li>Bachelor's Degree in Computer Science, Delhi Technological University, 2025</li>
+                <!-- Add more educational details as needed -->
+            </ul>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, C/C++</li>
+                <li>Deep Learning ,NLP, Fine Tunning LLMs</li>
+                <li>SQL</li>
+                <!-- Add more skills as needed -->
+            </ul>
+
+            <h3>Contact Me</h3>
+            <p>Email: gjha637582@gmail.com<br>
+               Phone: +91 8595731653</p>
+        </section>
+    </div>
+
+</body>
+</html>

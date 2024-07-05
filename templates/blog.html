@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptoms Prediction System</title>
+    <style>
+      body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          line-height: 1.6;
+          margin: 0;
+          padding: 0;
+          background-color: #f2f2f2;
+      }
+      header {
+          background-color: #4CAF50;
+          color: white;
+          padding: 20px 0;
+          text-align: center;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      nav {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 10px 0;
+          margin-bottom: 20px;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .container {
+          max-width: 800px;
+          margin: auto;
+          padding: 20px;
+          background-color: #fff;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          margin-bottom: 20px;
+      }
+      h1, h2 {
+          color: #333;
+          text-align: center;
+          margin-bottom: 10px;
+      }
+      p {
+          text-align: justify;
+          margin-bottom: 20px;
+      }
+      ul {
+          list-style-type: disc;
+          margin-left: 20px;
+          margin-bottom: 20px;
+      }
+      .feature {
+          background-color: #f9f9f9;
+          padding: 10px;
+          margin-bottom: 10px;
+          border-left: 4px solid #4CAF50;
+      }
+      footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 10px;
+          position: fixed;
+          width: 100%;
+          bottom: 0;
+      }
+      .btn {
+          display: inline-block;
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          cursor: pointer;
+          border-radius: 5px;
+          transition: background-color 0.3s ease;
+      }
+      .btn:hover {
+          background-color: #45a049;
+      }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Symptoms Prediction System</h1>
+    </header>
+    <div class="container">
+        <article>
+            <p>In the age of technology and information, access to accurate and timely healthcare is more critical than ever. With the increasing importance of remote healthcare solutions, we embarked on a journey to develop a symptom-based disease diagnosis web application. Leveraging Flask for the backend and a Decision Tree Classifier model, we created a user-friendly platform that can help users identify potential illnesses based on their reported symptoms.</p>
+            <h2>The Problem</h2>
+            <p>The project began with recognizing a common issue: people often experience symptoms and want quick answers about their health concerns. It can be challenging to differentiate between various diseases, especially when symptoms overlap. Our goal was to provide a convenient solution for users to input their symptoms and receive potential diagnoses.</p>
+            <h2>The Solution</h2>
+            <p>We developed a web app that allows users to enter a list of symptoms they are experiencing. The app then uses a pre-trained Decision Tree Classifier model to predict the most likely disease based on the provided symptoms. Here's how it works:</p>
+            <ul>
+            <li class="problem"><b>Symptom Input:</b> Users enter their symptoms through a user-friendly interface. The web app supports a wide range of symptoms, making it versatile for different scenarios.</li>
+            <li class="problem"><b>Machine Learning Model:</b> We trained a Decision Tree Classifier using a dataset containing symptoms and corresponding diseases. The model is capable of predicting diseases based on input symptoms.</li>
+            <li class="problem"><b>Prediction:</b>The app uses the model to predict the most likely disease, providing users with instant information about potential health concerns.</li>
+            <li class="problem"><b>Additional Information:</b> To enhance user experience, the app also provides additional information about the predicted disease. This includes a description of the disease, recommended precautions, medications, dietary advice, and workout tips.</li>
+            </ul>
+            <h2>Key Features</h2>
+            <ul>
+                <li class="feature"><b>User-Friendly Interface:</b> The web app boasts an intuitive and easy-to-navigate interface, ensuring that users can input their symptoms without any hassle.</li>
+                <li class="feature"><b>Comprehensive Information:</b> In addition to predictions, the app offers comprehensive information about the predicted disease, including descriptions, precautions, medications, diet recommendations, and workout tips.</li>
+                <li class="feature"><b>Accurate Predictions:</b> Leveraging machine learning, our model provides accurate disease predictions based on the symptoms provided by the user.</li>
+            </ul>
+            <h2>Conclusion</h2>
+            <p>Our Symptom-Based Disease Diagnosis Web App brings the power of machine learning and healthcare information to the fingertips of users. It serves as a valuable resource for individuals looking to gain insights into their health conditions quickly and conveniently. By combining technology and healthcare, we aim to make healthcare more accessible and user-centric. In an era where remote healthcare solutions are gaining prominence, this project represents a significant step forward in providing accessible and reliable healthcare information to the masses. We hope that this project will contribute to better health awareness and ultimately improve the well-being of individuals worldwide.</p>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Govind. All rights reserved.</p>
+    </footer>
+</body>
+</html>
